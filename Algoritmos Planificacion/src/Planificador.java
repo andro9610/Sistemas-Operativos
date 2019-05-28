@@ -1,3 +1,29 @@
+/**Algoritmos de planificacion
+ * 
+ * Este aplicativo tiene como finalidad mostrar graficamente el comportamiento
+ * de diferentes formas de planificacion de procesos, actualmente posee:
+ * - FCFS (First Come, First Served)
+ * - SJF (Shortest Job First)
+ * 
+ * Para el calculo y la graficacion requiere:
+ * - La cantidad de procesos
+ * - El tiempo de rafaga de cada proceso
+ * 
+ * Como resultado retorna:
+ * - Tabla de tiempos calculados
+ * - Diagrama de Gantt de los procesos, segun la politica de planificacion
+ *   de procesos que se escoja
+ * 
+ * Integrantes:
+ * 
+ * Miguel Rojas - 20132020059
+ * Andres Tovar - 20142020071
+ * 
+ * Fecha de presentacion:
+ * 
+ * 30 de Mayo de 2019
+ */
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -53,7 +79,7 @@ public class Planificador {
             contador++;
         }
     }
-    /**ejecutarFcfs: Tiene el contenido del algoritmo Sjf*/
+    /**ejecutarSjf: Tiene el contenido del algoritmo Sjf*/
     public void ejecutarSjf() {
         this.inicializar();
         Iterator it = listaprocesosA.iterator();
