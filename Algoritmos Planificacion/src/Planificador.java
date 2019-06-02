@@ -42,7 +42,6 @@ public class Planificador {
      * de rafaga de cada uno de ellos
     */
     public void inicializar() {
-
         int pro;
         pro = Integer.parseInt(JOptionPane.showInputDialog("Inserte la cantidad de procesos"));
         for (int i = 0; i < pro; i++) {
