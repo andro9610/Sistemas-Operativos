@@ -80,8 +80,8 @@ public class Planificador {
             contador++;
         }
     }
-    /**ejecutarSjf: Tiene el contenido del algoritmo Sjf*/
-    public void ejecutarSjf() {
+    
+     public void ejecutarSjf() {
         this.inicializar();
         Iterator it = listaprocesosA.iterator();
 
