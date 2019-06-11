@@ -24,7 +24,6 @@
  * 30 de Mayo de 2019
  */
 
- 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -43,7 +42,6 @@ public class Planificador {
      * de rafaga de cada uno de ellos
     */
     public void inicializar() {
-
         int pro;
         pro = Integer.parseInt(JOptionPane.showInputDialog("Inserte la cantidad de procesos"));
         for (int i = 0; i < pro; i++) {
@@ -80,8 +78,8 @@ public class Planificador {
             contador++;
         }
     }
-    
-     public void ejecutarSjf() {
+    /**ejecutarSjf: Tiene el contenido del algoritmo Sjf*/
+    public void ejecutarSjf() {
         this.inicializar();
         Iterator it = listaprocesosA.iterator();
 

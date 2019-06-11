@@ -32,7 +32,6 @@ public class Tabla extends javax.swing.JFrame {
         dtm.addRow(new Object[]{
             llegada, proceso, rafaga, comienzo, fin, retorno, espera
         });
-
         repaint();
     }
 
